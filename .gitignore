@@ -1,0 +1,32 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Model weights and training artifacts
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated files
+logs/
+outputs/
+temp/
+.pytest_cache/
+.gradio/
+
+# Benchmark datasets (download separately, see README)
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

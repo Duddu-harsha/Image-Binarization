@@ -1,0 +1,6 @@
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+pypdfium2>=4.30     # PDF input (Apache-2.0 / BSD-3)
+gradio>=4.44        # web demo only (app.py)
+pytest>=7.0         # tests only
